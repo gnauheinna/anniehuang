@@ -1,7 +1,7 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+import guitar from "./guitar.png";
+import binarycode from "./binarycode.png";
+import smartphone from "./smartphone.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -32,9 +32,9 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
+  smartphone,
+  binarycode,
+  guitar,
   web,
   github,
   menu,

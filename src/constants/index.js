@@ -3,17 +3,20 @@ import {
   binarycode,
   guitar,
   web,
+  java,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
+  clan,
+  firebase,
+  tensorflow,
   tailwind,
   nodejs,
-  mongodb,
-  git,
-  figma,
+  netcore,
+  csharp,
+  python,
   docker,
   meta,
   csrhett,
@@ -61,17 +64,26 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "C#",
+    icon: csharp,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "c",
+    icon: clan,
+  },
+  {
+    name: "python",
+    icon: python,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
+
   {
     name: "TypeScript",
     icon: typescript,
@@ -81,32 +93,31 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Firebase",
+    icon: firebase,
+  },
+
+  {
+    name: "HTML 5",
+    icon: html,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "CSS 3",
+    icon: css,
   },
+
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "netcore",
+    icon: netcore,
   },
+
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
+    name: "tensorflow",
+    icon: tensorflow,
   },
   {
     name: "docker",
@@ -191,7 +202,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "netcore",
         color: "green-text-gradient",
       },
       {

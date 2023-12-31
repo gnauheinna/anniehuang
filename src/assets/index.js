@@ -8,16 +8,21 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import tailwind from "./tech/tailwind.png";
+import tensorflow from "./tech/tensorflow.png";
+import clan from "./tech/clan.png";
+import java from "./tech/java.webp";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
+import assembly from "./tech/assembly.png";
 import html from "./tech/html.png";
+import python from "./tech/python.png";
+import csharp from "./tech/csharp.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import netcore from "./tech/netcore.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
+import firebase from "./tech/firebase.png";
+
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
@@ -31,6 +36,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  java,
   logo,
   smartphone,
   binarycode,
@@ -41,15 +47,17 @@ export {
   close,
   css,
   docker,
-  figma,
-  git,
+  assembly,
+  tailwind,
   html,
   javascript,
-  mongodb,
+  netcore,
+  csharp,
+  python,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
+  tensorflow,
+  firebase,
   typescript,
   threejs,
   meta,
@@ -57,6 +65,7 @@ export {
   csrhett,
   buspark,
   carrent,
+  clan,
   jobit,
   tripguide,
 };

@@ -31,7 +31,7 @@ import uoc from "./company/uoc.png";
 import csrhett from "./company/csrhett.png";
 import buspark from "./company/buspark.png";
 
-import carrent from "./carrent.png";
+import connectplus from "./connectplus.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -64,7 +64,7 @@ export {
   uoc,
   csrhett,
   buspark,
-  carrent,
+  connectplus,
   clan,
   jobit,
   tripguide,

@@ -22,7 +22,7 @@ import {
   csrhett,
   buspark,
   uoc,
-  carrent,
+  connectplus,
   jobit,
   tripguide,
   threejs,
@@ -193,25 +193,29 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ConnectPlus ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "React Native peer consultation platform for First-Generation college students to create commuity, share experiences and resources",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
-        name: "netcore",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "end-to-end",
         color: "pink-text-gradient",
       },
+      {
+        name: "agile",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: connectplus,
+    source_code_link: "https://github.com/gnauheinna/ConnectPlus",
   },
   {
     name: "Job IT",

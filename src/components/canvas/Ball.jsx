@@ -14,7 +14,8 @@ const Ball = (props) => {
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={0.8} />
+      <pointLight position={[10, 10, 10]} intensity={1.0} />
+      <ambientLight intensity={1.0} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
@@ -23,6 +24,8 @@ const Ball = (props) => {
           polygonOffset
           polygonOffsetFactor={-5}
           flatShading
+          metalness={0.6}
+          roughness={0.5}
         />
         <Decal
           position={[0, 0, 1]}

@@ -33,6 +33,7 @@ import buspark from "./company/buspark.png";
 
 import connectplus from "./connectplus.png";
 import sportspal from "./sportspal.png";
+import websec from "./websec.png";
 import HandWritten from "./HandWritten.png";
 
 export {
@@ -67,5 +68,6 @@ export {
   connectplus,
   clan,
   sportspal,
+  websec,
   HandWritten,
 };

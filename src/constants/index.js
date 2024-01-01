@@ -24,6 +24,7 @@ import {
   uoc,
   connectplus,
   sportspal,
+  websec,
   HandWritten,
   threejs,
 } from "../assets";
@@ -287,6 +288,44 @@ const projects = [
     image: HandWritten,
     source_code_link:
       "https://github.com/gnauheinna/DeepLearning-HandwrittenDigitRecognition",
+  },
+  {
+    name: "WebSec Login Project",
+    description:
+      "Python scripts exploiting Insecure Web Scenarios encapsulated in Docker containers to gain admin access",
+    tags: [
+      {
+        name: "XSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQLi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSRF",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Dictionary Attack",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MD5 hash exploit",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Encryption Backdoors",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: websec,
+    source_code_link:
+      "https://drive.google.com/drive/folders/1xhHltaIwiJC2Xc9KN4gaS9X0eY-CznV3?usp=drive_link",
   },
 ];
 

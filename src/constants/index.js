@@ -23,7 +23,7 @@ import {
   buspark,
   uoc,
   connectplus,
-  jobit,
+  sportspal,
   tripguide,
   threejs,
 } from "../assets";
@@ -193,7 +193,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "ConnectPlus ",
+    name: "Connect+",
     description:
       "React Native peer consultation platform for First-Generation college students to create commuity, share experiences and resources",
     tags: [
@@ -211,32 +211,56 @@ const projects = [
       },
       {
         name: "agile",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Typescript",
         color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
       },
     ],
     image: connectplus,
     source_code_link: "https://github.com/gnauheinna/ConnectPlus",
   },
   {
-    name: "Job IT",
+    name: "SportPal",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "C# ASP.Net core Sports social media WebApp for sports enthusiasts to initiate and join local sport events, manage schedules and payments, and engage in real-time chatting with other participants.",
     tags: [
       {
-        name: "react",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "ASP.NET CORE",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "OAuth",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "GCP",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: sportspal,
+    source_code_link: "https://github.com/gnauheinna/SportPal",
   },
   {
     name: "Trip Guide",

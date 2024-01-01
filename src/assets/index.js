@@ -32,7 +32,7 @@ import csrhett from "./company/csrhett.png";
 import buspark from "./company/buspark.png";
 
 import connectplus from "./connectplus.png";
-import jobit from "./jobit.png";
+import sportspal from "./sportspal.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -66,6 +66,6 @@ export {
   buspark,
   connectplus,
   clan,
-  jobit,
+  sportspal,
   tripguide,
 };

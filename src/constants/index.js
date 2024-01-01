@@ -24,7 +24,7 @@ import {
   uoc,
   connectplus,
   sportspal,
-  tripguide,
+  HandWritten,
   threejs,
 } from "../assets";
 
@@ -263,25 +263,30 @@ const projects = [
     source_code_link: "https://github.com/gnauheinna/SportPal",
   },
   {
-    name: "Trip Guide",
+    name: "Deep Learning Handwritten Digit Recognition Project",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Three feedforward neural network for handwritten digit recognition utilizing stochastic gradient descent, backpropagation, and cross-entropy cost function for improved performance.",
     tags: [
       {
-        name: "nextjs",
+        name: "neural network",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "deep learning",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Theano",
         color: "pink-text-gradient",
       },
+      {
+        name: "ReLu",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: HandWritten,
+    source_code_link:
+      "https://github.com/gnauheinna/DeepLearning-HandwrittenDigitRecognition",
   },
 ];
 

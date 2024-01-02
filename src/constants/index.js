@@ -4,6 +4,7 @@ import {
   guitar,
   web,
   bungle,
+  webAudit,
   java,
   javascript,
   typescript,
@@ -357,6 +358,35 @@ const projects = [
     image: bungle,
     source_code_link:
       "https://drive.google.com/drive/folders/1w2LK_JCwrhA4WP9c4Dq1S3EccP52Tv7T?usp=sharing",
+  },
+  {
+    name: "Web Audit Project",
+    description: "A security analysis on client-server communication.",
+    tags: [
+      {
+        name: "cookies",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HSTS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tracking Pixels",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Content Security Policy ",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSRF-token",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webAudit,
+    source_code_link:
+      "https://drive.google.com/drive/folders/18RqPBJk0xtxX2P7XRhEMq6o9yvmCxsaE?usp=drive_link",
   },
 ];
 

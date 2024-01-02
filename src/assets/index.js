@@ -16,6 +16,7 @@ import python from "./tech/python.png";
 import csharp from "./tech/csharp.png";
 import javascript from "./tech/javascript.png";
 import netcore from "./tech/netcore.png";
+import webAudit from "./webAudit.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import firebase from "./tech/firebase.png";
@@ -36,6 +37,7 @@ import HandWritten from "./HandWritten.png";
 
 export {
   java,
+  webAudit,
   logo,
   smartphone,
   binarycode,

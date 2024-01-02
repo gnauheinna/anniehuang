@@ -19,9 +19,9 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             {" "}
-            I develop end-to-end multiplation applications,
-            <br className="sm:block hidden" /> build cyberattack demonstrations,
-            and websecurity analysis
+            I'm a fullstack developer who develops multiplatform apps
+            <br className="sm:block hidden" /> and a cybersecurity enthusiast
+            who builds cyberattack demonstrations and websecurity analysis
           </p>
         </div>
       </div>

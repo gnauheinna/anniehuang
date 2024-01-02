@@ -40,11 +40,12 @@ const About = () => {
       >
         I'm a skilled fullstack software developer with experience in
         TypeScript, Javascript, C#, Java, Python and C, and expertise in
-        frameworks like React, ReactNative, Swift, Node.js, and Three.js. I'm
-        also a cybersecurity enthusiast. I'm a quick learner and love working
-        with UI/UX designers and clients to create efficient, scalable, and
-        user-friendly solutions that solves real world problems. Let's work
-        together to bring your ideas to life!
+        frameworks like React, ReactNative, .NET, Swift, Node.js, and Three.js.
+        I'm also a cybersecurity enthusiast who loves cryptography and builds
+        insecure website scenerios just to hack them. I'm a quick learner and
+        love working with UI/UX designers and clients to create efficient,
+        scalable, and user-friendly solutions that solves real world problems.
+        Let's work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

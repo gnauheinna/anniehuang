@@ -6,9 +6,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
-import css from "./tech/css.png";
-import tailwind from "./tech/tailwind.png";
 import tensorflow from "./tech/tensorflow.png";
 import clan from "./tech/clan.png";
 import java from "./tech/java.webp";
@@ -22,7 +19,7 @@ import netcore from "./tech/netcore.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import firebase from "./tech/firebase.png";
-
+import bungle from "./bungle.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
@@ -30,7 +27,8 @@ import meta from "./company/meta.png";
 import uoc from "./company/uoc.png";
 import csrhett from "./company/csrhett.png";
 import buspark from "./company/buspark.png";
-
+import tailwind from "./tech/tailwind.png";
+import css from "./tech/css.png";
 import connectplus from "./connectplus.png";
 import sportspal from "./sportspal.png";
 import websec from "./websec.png";
@@ -56,6 +54,7 @@ export {
   csharp,
   python,
   nodejs,
+  bungle,
   reactjs,
   tensorflow,
   firebase,

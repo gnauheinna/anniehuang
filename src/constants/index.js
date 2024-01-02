@@ -287,6 +287,103 @@ const projects = [
     source_code_link:
       "https://github.com/gnauheinna/DeepLearning-HandwrittenDigitRecognition",
   },
+  {
+    name: "WebSec Login Project",
+    description:
+      "Python scripts exploiting Insecure Web Scenarios encapsulated in Docker containers to gain admin access",
+    tags: [
+      {
+        name: "XSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQLi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSRF",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Dictionary Attack",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MD5 hash exploit",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Encryption Backdoors",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: websec,
+    source_code_link:
+      "https://drive.google.com/drive/folders/1xhHltaIwiJC2Xc9KN4gaS9X0eY-CznV3?usp=drive_link",
+  },
+  {
+    name: "Bungle",
+    description:
+      "JavaScripts exploiting Insecure Web Scenarios in Docker containers",
+    tags: [
+      {
+        name: "XSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQLi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSRF",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Web Automation",
+        color: "green-text-gradient",
+      },
+    ],
+    image: bungle,
+    source_code_link:
+      "https://drive.google.com/drive/folders/1w2LK_JCwrhA4WP9c4Dq1S3EccP52Tv7T?usp=sharing",
+  },
+  {
+    name: "Web Audit Project",
+    description: "A security analysis on client-server communication.",
+    tags: [
+      {
+        name: "cookies",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HSTS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tracking Pixels",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Content Security Policy ",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSRF-token",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webAudit,
+    source_code_link:
+      "https://drive.google.com/drive/folders/18RqPBJk0xtxX2P7XRhEMq6o9yvmCxsaE?usp=drive_link",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
+import { useMediaQuery } from "react-responsive";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -64,6 +65,11 @@ const ProjectCard = React.memo(
 );
 
 const Works = () => {
+  const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });
+
+  // If it's a small screen, only take the first three projects
+  const projectsToRender = isSmallScreen ? projects.slice(0, 4) : projects;
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -83,7 +89,7 @@ const Works = () => {
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
+        {projectsToRender.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
